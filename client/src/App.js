@@ -4,9 +4,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Loading from './Components/Loading.js'
 import { createBrowserHistory } from 'history';
 
-// Protected Route for Auth
-import ProtectedRoute from './ProtectedRoute.js';
-
 // Context API
 import { UserContext } from './userContext';
 import { AuthContext } from './authContext';
